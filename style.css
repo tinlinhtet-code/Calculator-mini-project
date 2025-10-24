@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(50, 205, 197, 0.452);
+}
+.calculator{
+    background-color: rgb(0, 162, 255);
+    border-radius: 20px;
+    width: 370px;
+    height: 560px;
+    margin: 50px 0 0 100px;
+    text-align: center;
+}
+.calculator input{
+    width: 350px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    margin: 2px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(202, 202, 202);
+}
+.division-btn{
+    background-color: orange;
+}
+.into-btn{
+    background-color: orange;
+}
+.minus-btn{
+    background-color: orange;
+}
+.plus-btn{
+    background-color: orange;
+}
+.clear-btn{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+}
+.equal-btn{
+    background-color: blue;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 100px;
+    color: white;
+    font-size: 2rem;
+}
+.division-btn:hover{
+    background-color: #ffa600dc;
+}
+.into-btn:hover{
+    background-color: #ffa600dc;
+}
+.minus-btn:hover{
+    background-color: #ffa600dc;
+}
+.plus-btn:hover{
+    background-color:#ffa600dc;
+}
+.clear-btn:hover{
+    background-color: rgba(255, 0, 0, 0.849);
+}
+.equal-btn:hover{
+    background-color: rgba(0, 0, 255, 0.733);
+}
